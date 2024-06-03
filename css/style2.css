@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+}
+
+.form-login,
+.form-create-account,
+.form-recover-password {
+  width: 300px;
+  margin: 50px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-login h5,
+.form-create-account h5,
+.form-recover-password h5 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-login input[type="text"],
+.form-login input[type="password"],
+.form-create-account input[type="text"],
+.form-create-account input[type="password"],
+.form-recover-password input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.form-login input[type="submit"],
+.form-create-account input[type="submit"],
+.form-recover-password input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #5d4037;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form-login input[type="submit"]:hover,
+.form-create-account input[type="submit"]:hover,
+.form-recover-password input[type="submit"]:hover {
+  background-color: #795548;
+}
+
+.form-login p,
+.form-create-account p,
+.form-recover-password p {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.form-login p a,
+.form-create-account p a,
+.form-recover-password p a {
+  color: #5d4037;
+  text-decoration: none;
+}
+
+.form-login p a:hover,
+.form-create-account p a:hover,
+.form-recover-password p a:hover {
+  text-decoration: underline;
+}
+
+.clearfix-padding {
+  clear: both;
+  padding: 2%;
+}
+
+footer {
+  background: #795548;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  height: 100vh;
+  width: 100%;
+}
+
+footer p {
+  margin-bottom: 10px;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+.social {
+  list-style-type: none;
+  text-align: center;
+}
+
+.social li {
+  display: inline;
+}
+
+.social i {
+  font-size: 300%;
+  margin: 1%;
+  padding: 5%;
+  color: #c3d7df;
+}
+
+.social i:hover {
+  color: #f5f5f5;
+}
+
+.second-footer {
+  border-top: 1px solid #aadcd2;
+  text-align: center;
+  margin: 0;
+}
+
+h3 {
+  font-size: 200%;
+  line-height: 200%;
+  font-weight: 500;
+  color: #000000;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 0;
+}
+
+.second-footer p,
+.second-footer a {
+  text-align: center;
+  color: #fff;
+  font-size: 160%;
+  line-height: 155%;
+}

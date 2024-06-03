@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+	  <title>The Candles Oasis</title>
+	    <meta charset="utf-8">
+	    <link rel="icon" type="image/png" href="imga/logo/aa.jpg">
+	      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+	    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="styles.css" />
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	     <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+	</head>
+	<body>
+		<header>
+			<div class="container-hero">
+				<div class="container hero">
+					<div class="customer-support">
+						<i class="fa-solid fa-headset"></i>
+						<div class="content-customer-support">
+							<span class="text">Servicio al cliente 24/7</span>
+							<span class="number">4709-5904</span>
+						</div>
+					</div>
+
+					<div class="container-logo">
+					<i class="fa-solid fa-menorah"></i>
+						<h1 class="logo"><a href="/">The Candles Oasis</a></h1>
+					</div>
+
+					<div class="container-user">
+							 <i class="fa-solid fa-user"></i>
+									 <i class="fa-solid fa-basket-shopping"></i>
+									 <span id="cart-counter">(0)</span>
+							 <div class="content-shopping-cart" id="cart-dropdown">
+								 <div id="cart-items" class="cart-items"></div>
+									 <div class="cart-total">
+											 Total: <span id="cart-total">Q0.00</span>
+									 </div>
+									 <button id="checkout-btn">Comprar</button>
+							 </div>
+					 </div>
+				</div>
+			</div>
+
+			<div class="container-navbar">
+				<nav class="navbar container">
+					<i class="fa-solid fa-bars"></i>
+					<ul class="menu">
+						  <a href="index.html" class="current">Inicio</a>
+						<li><a href="#categoria">Categorias</a></li>
+						<li><a href="#mejor">Productos</a></li>
+						<li><a href="#especial">Especiales</a></li>
+						<li><a href="#blog">Blog</a></li>
+						<li><a href="#contac">Contacto</a></li>
+					  <a href="login.html">Iniciar sesión</a>
+					</ul>
+
+					<form class="search-form">
+						<input type="search" placeholder="Buscar..." />
+						<button class="btn-search">
+							<i class="fa-solid fa-magnifying-glass"></i>
+						</button>
+					</form>
+				</nav>
+			</div>
+		</header>
+
+		<section class="banner">
+			<div class="content-banner">
+				<p>Velas Personalizadas</p>
+				<h2>100% Natural <br />Velas Aromaticas</h2>
+				<a href="#">Comprar ahora</a>
+			</div>
+		</section>
+
+		<main class="main-content">
+			<section class="container container-features">
+				<div class="card-feature">
+					<i class="fa-solid fa-plane-up"></i>
+					<div class="feature-content">
+						<span>Envío gratuito a nivel nacional</span>
+						<p>En pedido superior a Q35</p>
+					</div>
+				</div>
+				<div class="card-feature">
+					<i class="fa-solid fa-wallet"></i>
+					<div class="feature-content">
+						<span>Contrareembolso</span>
+						<p>100% garantía de devolución de dinero</p>
+					</div>
+				</div>
+				<div class="card-feature">
+					<i class="fa-solid fa-gift"></i>
+					<div class="feature-content">
+						<span>Tarjeta regalo especial</span>
+						<p>Ofrece bonos especiales con regalo</p>
+					</div>
+				</div>
+				<div class="card-feature">
+					<i class="fa-solid fa-headset"></i>
+					<div class="feature-content">
+						<span>Servicio al cliente 24/7</span>
+						<p>LLámenos 24/7 al 4709-5904</p>
+					</div>
+				</div>
+			</section>
+
+			<section class="container top-categories" id="categoria">
+				<h1 class="heading-1">Mejores Categorías</h1>
+				<div class="container-categories">
+					<div class="card-category category-moca">
+						<p>Aromas de temporada</p>
+						<span>Ver más</span>
+					</div>
+					<div class="card-category category-expreso">
+						<p>Bienestar y relajación</p>
+						<span>Ver más</span>
+					</div>
+					<div class="card-category category-capuchino">
+						<p>Estilos decorativos y diseño</p>
+						<span>Ver más</span>
+					</div>
+				</div>
+			</section>
+
+			<section class="container top-products" id="mejor">
+				<h1 class="heading-1">Mejores Productos</h1>
+
+				<div class="container-options">
+					<span class="active">Destacados</span>
+					<span>Más recientes</span>
+					<span>Mejores Vendidos</span>
+				</div>
+
+				<div class="container-products">
+					<!-- Producto 2 -->
+					<div class="card-product">
+						<div class="container-img">
+							<img
+								src="img/cafe-ingles.jpeg"
+								alt="Cafe incafe-ingles.jpg"
+							/>
+							<div class="button-group">
+								<span>
+									<i class="fa-regular fa-eye"></i>
+								</span>
+								<span>
+									<i class="fa-regular fa-heart"></i>
+								</span>
+								<span>
+									<i class="fa-solid fa-code-compare"></i>
+								</span>
+							</div>
+						</div>
+						<div class="content-card-product">
+							<div class="stars">
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+							<i class="fa-solid fa-star"></i>
+							<i class="fa-solid fa-star"></i>
+							</div>
+							<span class="add-cart">
+								<i class="fa-solid fa-basket-shopping"></i>
+							</span>
+							<p class="price">Q22.00 </p>
+						</div>
+					</div>
+					<!--  -->
+					<div class="card-product">
+						<div class="container-img">
+							<img
+								src="img/cafe-australiano.jpeg"
+								alt="Cafe Australiano"
+							/>
+							<div class="button-group">
+								<span>
+									<i class="fa-regular fa-eye"></i>
+								</span>
+								<span>
+									<i class="fa-regular fa-heart"></i>
+								</span>
+								<span>
+									<i class="fa-solid fa-code-compare"></i>
+								</span>
+							</div>
+						</div>
+						<div class="content-card-product">
+							<div class="stars">
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+							</div>
+							<span class="add-cart">
+								<i class="fa-solid fa-basket-shopping"></i>
+							</span>
+							<p class="price">Q18.00</p>
+						</div>
+					</div>
+					<!--  -->
+					<div class="card-product">
+						<div class="container-img">
+							<img src="img/cafe-helado.jpeg" alt="Cafe Helado" />
+							<div class="button-group">
+								<span>
+									<i class="fa-regular fa-eye"></i>
+								</span>
+								<span>
+									<i class="fa-regular fa-heart"></i>
+								</span>
+								<span>
+									<i class="fa-solid fa-code-compare"></i>
+								</span>
+							</div>
+						</div>
+						<div class="content-card-product">
+							<div class="stars">
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+							</div>
+							<span class="add-cart">
+								<i class="fa-solid fa-basket-shopping"></i>
+							</span>
+							<p class="price">Q20.00</p>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="gallery">
+				<img
+					src="img/gallery1.jpg"
+					alt="Gallery Img1"
+					class="gallery-img-1"
+				/><img
+					src="img/gallery2.jpg"
+					alt="Gallery Img2"
+					class="gallery-img-2"
+				/><img
+					src="img/gallery3.jpg"
+					alt="Gallery Img3"
+					class="gallery-img-3"
+				/><img
+					src="img/gallery4.jpg"
+					alt="Gallery Img4"
+					class="gallery-img-4"
+				/><img
+					src="img/gallery5.jpg"
+					alt="Gallery Img5"
+					class="gallery-img-5"
+				/>
+			</section>
+
+			<section class="container specials" id="especial">
+				<h1 class="heading-1">Especiales</h1>
+
+				<div class="container-products">
+					<!-- Producto 1 -->
+					<div class="card-product">
+						<div class="container-img">
+							<img src="img/cafe-irish.jpeg" alt="Cafe Irish" />
+							<div class="button-group">
+								<span>
+									<i class="fa-regular fa-eye"></i>
+								</span>
+								<span>
+									<i class="fa-regular fa-heart"></i>
+								</span>
+								<span>
+									<i class="fa-solid fa-code-compare"></i>
+								</span>
+							</div>
+						</div>
+						<div class="content-card-product">
+							<div class="stars">
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+							<i class="fa-solid fa-star"></i>
+							</div>
+							<span class="add-cart">
+								<i class="fa-solid fa-basket-shopping"></i>
+							</span>
+							<p class="price">Q16.00</p>
+						</div>
+					</div>
+					<!-- Producto 2 -->
+					<!--  -->
+					<div class="card-product">
+						<div class="container-img">
+							<img src="img/cafe-viena.jpeg" alt="Cafe Viena" />
+							<div class="button-group">
+								<span>
+									<i class="fa-regular fa-eye"></i>
+								</span>
+								<span>
+									<i class="fa-regular fa-heart"></i>
+								</span>
+								<span>
+									<i class="fa-solid fa-code-compare"></i>
+								</span>
+							</div>
+						</div>
+						<div class="content-card-product">
+							<div class="stars">
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+							</div>
+							<span class="add-cart">
+								<i class="fa-solid fa-basket-shopping"></i>
+							</span>
+							<p class="price">Q24.00 </p>
+						</div>
+					</div>
+					<!--  -->
+					<div class="card-product">
+						<div class="container-img">
+							<img src="img/cafe-liqueurs.jpeg" alt="Cafe Liqueurs" />
+							<div class="button-group">
+								<span>
+									<i class="fa-regular fa-eye"></i>
+								</span>
+								<span>
+									<i class="fa-regular fa-heart"></i>
+								</span>
+								<span>
+									<i class="fa-solid fa-code-compare"></i>
+								</span>
+							</div>
+						</div>
+						<div class="content-card-product">
+							<div class="stars">
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+							<i class="fa-solid fa-star"></i>
+							</div>
+							<span class="add-cart">
+								<i class="fa-solid fa-basket-shopping"></i>
+							</span>
+							<p class="price">Q14.00</p>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="container blogs" id="blog">
+				<h1 class="heading-1">Últimos Blogs</h1>
+
+				<div class="container-blogs" >
+					<div class="card-blog">
+						<div class="container-img">
+							<img src="img/blog-1.jpg" alt="Imagen Blog 1" />
+							<div class="button-group-blog">
+								<span>
+									<i class="fa-solid fa-magnifying-glass"></i>
+								</span>
+								<span>
+									<i class="fa-solid fa-link"></i>
+								</span>
+							</div>
+						</div>
+						<div class="content-blog">
+							<h3>Beneficios de la aromaterapia </h3>
+							<p>
+						La aromaterapia en el hogar ofrece una experiencia multisensorial que puede mejorar significativamente el bienestar general. Al incorporar velas aromáticas en tu espacio, puedes crear un ambiente relajante y estimulante según tus necesidades y preferencias. Los diferentes aromas tienen el poder de influir en el estado de ánimo y la salud mental, promoviendo la relajación, reduciendo el estrés y mejorando la calidad del sueño. Además, la aromaterapia en el hogar proporciona una forma natural y agradable de cuidar tu salud emocional y física, transformando tu entorno en un santuario de calma y serenidad.
+							</p>
+							<div class="btn-read-more">Leer más</div>
+						</div>
+					</div>
+					<div class="card-blog">
+						<div class="container-img">
+							<img src="img/blog-2.jpg" alt="Imagen Blog 2" />
+							<div class="button-group-blog">
+								<span>
+									<i class="fa-solid fa-magnifying-glass"></i>
+								</span>
+								<span>
+									<i class="fa-solid fa-link"></i>
+								</span>
+							</div>
+						</div>
+						<div class="content-blog">
+							<h3>Variedad de aromas por temporada</h3>
+							<p>
+							Descubre cómo la variedad de aromas por temporada puede transformar tu hogar en un refugio acogedor durante todo el año. Desde los reconfortantes aromas de canela y calabaza en otoño hasta la frescura de la lavanda y la flor de cerezo en primavera, cada estación ofrece una paleta única de fragancias que reflejan los elementos y las emociones asociadas con ese momento del año. Con una amplia variedad de aromas por temporada, puedes crear una experiencia sensorial única en tu hogar que se adapte a cada época del año y a tus estados de ánimo cambiantes.
+							</p>
+							<div class="btn-read-more">Leer más</div>
+						</div>
+					</div>
+					<div class="card-blog">
+						<div class="container-img">
+							<img src="img/blog-3.jpg" alt="Imagen Blog 3" />
+							<div class="button-group-blog">
+								<span>
+									<i class="fa-solid fa-magnifying-glass"></i>
+								</span>
+								<span>
+									<i class="fa-solid fa-link"></i>
+								</span>
+							</div>
+						</div>
+						<div class="content-blog">
+							<h3>Variedad de formas de velas</h3>
+							<p>
+								Explora la creatividad ilimitada con la personalización de formas de velas. Desde formas clásicas como cilindros y candelabros hasta diseños únicos como corazones, estrellas o incluso objetos personalizados, la personalización de formas permite a los clientes expresar su individualidad y estilo personal a través de sus velas. Ya sea que estén buscando una pieza central impresionante para una ocasión especial o simplemente quieran agregar un toque único a su decoración diaria, la personalización de formas ofrece opciones para cada gusto y preferencia que el cliente desee.
+							</p>
+							<div class="btn-read-more">Leer más</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+
+		<footer class="footer">
+			<div class="container container-footer" id="contac">
+				<div class="menu-footer">
+					<div class="contact-info">
+						<p class="title-footer">Información de Contacto</p>
+						<ul>
+							<li>
+								Dirección: Universidad Mariano Galvez de Guatema Villa nueva
+							</li>
+							<li>Teléfono: 4709-5904</li>
+							<li>Fax: 55555300</li>
+							<li>EmaiL: thecandlesoasis@gmail.com</li>
+						</ul>
+						<div class="social-icons">
+							<span class="facebook">
+								<i class="fa-brands fa-facebook-f"></i>
+							</span>
+							<span class="twitter">
+								<i class="fa-brands fa-twitter"></i>
+							</span>
+							<span class="youtube">
+								<i class="fa-brands fa-youtube"></i>
+							</span>
+							<span class="pinterest">
+								<i class="fa-brands fa-pinterest-p"></i>
+							</span>
+							<span class="instagram">
+								<i class="fa-brands fa-instagram"></i>
+							</span>
+						</div>
+					</div>
+
+					<div class="information">
+						<p class="title-footer">Información</p>
+						<ul>
+							<li><a href="index.html#skills">Acerca de Nosotros</a></li>
+							<li><a href="#">Información Delivery</a></li>
+							<li><a href="#">Politicas de Privacidad</a></li>
+							<li><a href="#">Términos y condiciones</a></li>
+						</ul>
+					</div>
+
+					<div class="my-account">
+						<p class="title-footer">Mi cuenta</p>
+
+						<ul>
+							<li><a href="login.html">Iniciar sesion</a></li>
+							<li><a href="#">Historial de ordenes</a></li>
+							<li><a href="#">Lista de deseos</a></li>
+							<li><a href="#">Boletín</a></li>
+							<li><a href="#">Reembolsos</a></li>
+						</ul>
+					</div>
+
+					<div class="newsletter">
+						<p class="title-footer">Boletín informativo</p>
+
+						<div class="content">
+							<p>
+								Suscríbete a nuestros boletines ahora y mantente al
+								día con nuevas colecciones y ofertas exclusivas.
+							</p>
+							<input type="email" placeholder="Ingresa el correo aquí...">
+							<button>Suscríbete</button>
+						</div>
+					</div>
+				</div>
+
+				<div class="copyright">
+					<p>
+						Elaborado por los ingenieros Express
+					</p>
+
+					<img src="img/payment.png" alt="Pagos">
+				</div>
+			</div>
+		</footer>
+		<script src="https://kit.fontawesome.com/81581fb069.js" crossorigin="anonymous"></script>
+		<script>
+		$(document).ready(function () {
+		    var cartItems = []; // Array para almacenar los productos en el carrito
+		    var totalPrice = 0; // Total del precio de los elementos en el carrito
+
+		    // Función para actualizar el contador del carrito
+		    function updateCartCounter() {
+		        var totalQuantity = 0;
+		        cartItems.forEach(function(item) {
+		            totalQuantity += item.quantity;
+		        });
+		        $('#cart-counter').text('(' + totalQuantity + ')');
+		    }
+
+		    // Función para agregar un producto al carrito
+		    function addToCart(product) {
+		        var existingProduct = cartItems.find(function(item) {
+		            return item.name === product.name && item.price === product.price;
+		        });
+
+		        if (existingProduct) {
+		            // Si el producto ya existe en el carrito, incrementa la cantidad
+		            existingProduct.quantity++;
+		        } else {
+		            // Si es un producto nuevo, agrégalo al carrito
+		            cartItems.push(product);
+		        }
+
+		        // Actualiza el precio total sumando el precio del producto agregado
+		        totalPrice += product.price;
+		        updateCartCounter();
+		        renderCartItems();
+		        $('#cart-total').text('Q' + totalPrice.toFixed(2));
+		    }
+
+		    // Función para quitar un producto del carrito
+		    function removeFromCart(index) {
+		        var item = cartItems[index];
+		        item.quantity--; // Reduce la cantidad del producto
+
+		        // Actualiza el precio total
+		        totalPrice -= item.price;
+
+		        if (item.quantity === 0) {
+		            cartItems.splice(index, 1); // Elimina el producto si la cantidad es cero
+		        }
+
+		        updateCartCounter();
+		        renderCartItems();
+		        $('#cart-total').text('Q' + totalPrice.toFixed(2));
+		    }
+
+		    function renderCartItems() {
+		        var cartItemsContainer = $('#cart-items');
+		        cartItemsContainer.empty();
+
+		        if (cartItems.length === 0) {
+		            $('#cart-empty-message').show(); // Mostrar el mensaje de carrito vacío
+		        } else {
+		            $('#cart-empty-message').hide(); // Ocultar el mensaje de carrito vacío
+
+		            cartItems.forEach(function (item, index) {
+		                var productDiv = $('<div class="cart-product">');
+		                productDiv.append('<img src="' + item.image + '" alt="' + item.name + '">');
+		                productDiv.append('<div class="product-info">');
+		                productDiv.find('.product-info').append('<span class="product-name">' + item.name + '</span>');
+		                productDiv.find('.product-info').append('<span class="product-price">Q' + (item.price * item.quantity).toFixed(2) + '</span>');
+		                var quantityControls = $('<div class="quantity-controls">');
+		                quantityControls.append('<button class="quantity-btn minus" data-index="' + index + '">-</button>');
+		                quantityControls.append('<span class="product-quantity">' + item.quantity + '</span>');
+		                quantityControls.append('<button class="quantity-btn plus" data-index="' + index + '">+</button>');
+		                productDiv.append(quantityControls);
+		                cartItemsContainer.append(productDiv);
+		            });
+		        }
+		    }
+
+		    // Controlador de eventos para el botón de checkout
+		    $('#checkout-btn').click(function () {
+		        // Vaciar el carrito y reiniciar el contador
+		        cartItems = [];
+		        totalPrice = 0;
+		        updateCartCounter();
+		        renderCartItems();
+		        $('#cart-total').text('Q' + totalPrice.toFixed(2));
+		        // Mostrar mensaje de compra realizada
+		        alert('¡Compra realizada con éxito!');
+		    });
+
+		    // Controlador de eventos para el botón de agregar al carrito
+		    $('.add-cart').click(function () {
+		        var product = {
+		            name: $(this).closest('.card-product').find('.content-card-product h3').text(),
+		            id: $(this).closest('.content-card-product').data('product-id'),
+		            price: parseFloat($(this).closest('.content-card-product').find('.price').text().replace('Q', '')),
+		            quantity: 1,
+		            image: $(this).closest('.card-product').find('img').attr('src')
+		        };
+
+		        addToCart(product);
+
+		        // Renderizar el carrito después de agregar un producto
+		        renderCartItems();
+		    });
+
+		    // Controlador de eventos para mostrar/ocultar el carrito al hacer clic en el ícono del carrito
+		    $('.fa-basket-shopping').click(function () {
+		        $('#cart-dropdown').toggle();
+		    });
+
+		    // Controlador de eventos para el botón de quitar del carrito
+		    $(document).on('click', '.minus', function () {
+		        var index = $(this).data('index');
+		        removeFromCart(index);
+		    });
+
+		    // Controlador de eventos para el botón de agregar al carrito
+		    $(document).on('click', '.plus', function () {
+		        var index = $(this).data('index');
+		        cartItems[index].quantity++;
+		        totalPrice += cartItems[index].price; // Aumenta el precio total al añadir un producto
+		        updateCartCounter();
+		        renderCartItems();
+		        $('#cart-total').text('Q' + totalPrice.toFixed(2));
+		    });
+		});
+		</script>
+
+
+	</body>
+</html>
